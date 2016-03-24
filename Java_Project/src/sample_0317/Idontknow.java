@@ -14,7 +14,8 @@ public class Idontknow {
 		}
 		
 		for(int b = 1; b<=9; b++){
-			for(int a=3; a<=9; a+=2){
+			for(int a=2; a<=9; a++)
+			{
 				System.out.print(a);
 				System.out.print("*");
 				System.out.print(b);
