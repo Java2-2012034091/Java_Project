@@ -3,8 +3,12 @@ package sample_0407;
 public class TelevisionTest {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-		Television myTV = new Television();
+		Television myTv = new Television(7, 10, true);
+		myTv.print();
+		Television yourTv = new Television(11, 20, true);
+		yourTv.print();
+	
+		/*Television myTV = new Television();
 		myTV.channel = 18;
 		myTV.volume = 12;
 		myTV.onOff = true;
@@ -23,6 +27,6 @@ public class TelevisionTest {
 		System.out.println("current channel :" + yourTV.changeChannel(24));
 		
 		yourTV.pr();
-			
+			*/
 	}
 }
