@@ -2,7 +2,7 @@ package sample_0512;
 
 public class work {
 
-	int value;
+	int value=0;
 	int value2;
 	
 	void inc(int a) {

@@ -4,7 +4,7 @@ public class AutoCarTest {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		OperateCar obj = new AutoCar();
+		OperateCar obj = new AutoCar(); //AutoCar = objµµ°¡´É
 		obj.start();
 		obj.setSpeed(30);
 		obj.turn(15);

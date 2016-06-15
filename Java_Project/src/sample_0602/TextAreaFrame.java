@@ -22,13 +22,13 @@ public class TextAreaFrame extends JFrame implements ActionListener {
 		
 		textArea = new JTextArea(10,30);
 		JScrollPane scrollPane = new JScrollPane(textArea);
-		
+		add(scrollPane, BorderLayout.CENTER);
 		
 		textArea.setEditable(false);
 		
 		add(textField, BorderLayout.NORTH);
 		//add(textArea, BorderLayout.CENTER);
-		add(scrollPane, BorderLayout.CENTER);
+		
 		
 		pack();
 		setVisible(true);

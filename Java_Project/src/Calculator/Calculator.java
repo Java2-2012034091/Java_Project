@@ -9,7 +9,7 @@ import javax.swing.JFrame;
 import javax.swing.JPanel;
 import javax.swing.JTextField;
 
-public class Calculator extends JFrame {
+public class Calculator extends JFrame { //JFrame 상속 받으면 바로 add(붙일거) 사용?
 
 	private JPanel panel;
 	private JTextField textField;
@@ -22,6 +22,7 @@ public class Calculator extends JFrame {
 	};
 
 	public Calculator() {
+		setTitle("Caculator");
 		textField = new JTextField(70);
 		panel = new JPanel();
 		textField.setText("0");
@@ -37,7 +38,7 @@ public class Calculator extends JFrame {
 				index++;
 			}
 		}
-		add(textField, BorderLayout.NORTH);
+		add(textField, BorderLayout.NORTH); // SOUTH, WEST, EAST, NORTH..
 		add(panel, BorderLayout.CENTER);
 		setVisible(true);
 		pack();
