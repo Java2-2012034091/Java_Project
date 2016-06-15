@@ -1,11 +1,11 @@
 package sample_0407;
 
 public class Television {
-	private int channel;
-	private int volume;
-	private boolean onOff;
+	int channel;
+	int volume;
+	boolean onOff;
 	
-	Television(int c, int v, boolean o) {
+	/*Television(int c, int v, boolean o) {
 		channel = c;
 		volume = v;
 		onOff = o;
@@ -13,18 +13,22 @@ public class Television {
 	
 	void print() {
 		System.out.println("채널은 " + channel+"이고 볼륨은"+ volume + "입니다."+onOff);
-	}
+	}*/
 	
-	int changeChannel(int ch){
-		channel = ch;
+	int getChannel(){
 		return channel;
+		
 	}
 	
-	public Television(){
+	void setChannel(int ch) {
+		channel = ch;
+	}
+	
+	/*public Television(){
 		this.channel = 10;
 		this.volume = 10;
 		this.onOff = true;
-	}
+	}*/
 	
 	
 }
